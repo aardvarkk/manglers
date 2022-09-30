@@ -1,2 +1,7 @@
 *.mp4
 manglers
+
+
+# Added by cargo
+
+/target
