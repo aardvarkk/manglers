@@ -2,6 +2,12 @@
 
 An ultra-basic file glitching tool
 
+## Before & After
+
+https://user-images.githubusercontent.com/1251092/193210373-a75f7bc6-13fc-49b9-894d-8332c72bb935.mp4
+
+https://user-images.githubusercontent.com/1251092/193210386-2e237c6b-9d6b-461a-a6d7-5c94523b3771.mp4
+
 ## WARNING
 
 - Running this tool will **overwrite** a number of bytes in the given file with **random data**!
@@ -13,7 +19,7 @@ An ultra-basic file glitching tool
 
 ## How it works
 
-- Assumes a file named `video.mp4` exists in the same directory it's being run (can you tell I was using this for video glitching?)
+- Assumes a file named `video.mp4` exists in the same directory it's being run
 - Overwrites a small percentage of bytes in the file (currently 0.001%) with random bytes
 - ... that's it!
 
@@ -23,6 +29,7 @@ An ultra-basic file glitching tool
 - Change `PERCENT_TWEAK`
   - 1.0 would change a number of bytes equal to the number of bytes in the file
   - 0.0 would make no changes
+- Try it on some photos! Or anything you're excited to corrupt!
 
 ## Contribute
 
