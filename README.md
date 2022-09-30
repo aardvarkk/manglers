@@ -1,6 +1,6 @@
 # manglers
 
-An ultra-basic file glitching tool
+An ultra-basic file glitching tool written in Rust.
 
 ## Before & After
 
