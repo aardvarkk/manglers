@@ -30,6 +30,7 @@ https://user-images.githubusercontent.com/1251092/193210386-2e237c6b-9d6b-461a-a
   - 1.0 would change a number of bytes equal to the number of bytes in the file
   - 0.0 would make no changes
 - Try it on some photos! Or anything you're excited to corrupt!
+- Because it writes to the input file, running it repeatedly will further corrupt the file. Try tweaking a lower percentage of bytes, but running it more times in a row. You can save copies of iterations you like along the way!
 
 ## Contribute
 
