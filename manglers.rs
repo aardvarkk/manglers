@@ -5,9 +5,10 @@ use std::io::Write;
 use rand::prelude::*;
 
 fn main() {
+  const INPUT_FILE: &str = "video.mp4";
   const PERCENT_TWEAK: f32 = 0.00001;
 
-  let mut file = OpenOptions::new().write(true).open("video.mp4").unwrap();
+  let mut file = OpenOptions::new().write(true).open(INPUT_FILE).unwrap();
   let fsize = file.metadata().unwrap().len();
   let bytes_to_tweak = ((fsize as f32) * PERCENT_TWEAK).floor() as i32;
 
