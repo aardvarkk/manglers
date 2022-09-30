@@ -19,7 +19,7 @@ An ultra-basic file glitching tool
 
 ## Playing with it
 
-- Change `video.mp4` in the source to whatever file you want instead (or just name your file `video.mp4`!)
+- Change `INPUT_FILE` in the source to whatever file you want instead (or just name your file `video.mp4`!)
 - Change `PERCENT_TWEAK`
   - 1.0 would change a number of bytes equal to the number of bytes in the file
   - 0.0 would make no changes
@@ -27,5 +27,5 @@ An ultra-basic file glitching tool
 ## Contribute
 
 - Make it accept the input file name as a required argument
-- Make it accept the percent_tweak as an optional argument
+- Make it accept the percent tweak as an optional argument
 - Make it copy the original file to a .bak version (by default? with a flag to disable?) before mutating it
